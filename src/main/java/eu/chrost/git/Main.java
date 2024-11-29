@@ -1,6 +1,6 @@
 package eu.chrost.git;
-import java.util.Random;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -15,5 +15,7 @@ public class Main {
         Random rand = new Random();
         int value = rand.nextInt(100);
         System.out.println(value);
+
+        System.out.println("New feature on master branch");
     }
 }
